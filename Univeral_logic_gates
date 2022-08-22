@@ -1,0 +1,11 @@
+NAND and NOR gates are called universal gates because they perform all the Logic functions OR, AND and NOT.
+
+Hint: In digital logic, a universal logic gate is a logic gate that can be used to construct all other – logic gates like AND, OR & NOT. 
+These basic gates can be represented or created with the help of universal logic gates.
+
+What are the 3 universal gates?
+3 universal gates are: NAND, NOR and Fredkin gate
+
+
+Why NAND gate is called universal gate?
+NAND Gate is called Universal Gates because all the other gates (NOT, AND, OR and NOR)can be created by using this gate.
