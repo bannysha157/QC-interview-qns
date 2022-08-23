@@ -1,0 +1,18 @@
+      
+#include<stdio.h>
+int main()
+{
+	int i=0x98765432;
+	char *p;
+	p=&i;
+	printf("%p\n",i);
+	printf("%p\n",p);
+	printf("%p\n",*p);
+	printf("%x\n",*p);
+	if(*p==98)
+		printf("big endian\n");
+	else
+		printf("little endian\n");
+}
+
+    
