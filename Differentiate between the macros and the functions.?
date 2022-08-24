@@ -1,0 +1,6 @@
+Macros	                                                                                              Functions
+It is preprocessed rather than compiled.	                                                               It is compiled not preprocessed.
+It is preprocessed rather than compiled.                	                                               Function checks for compilation errors.
+Code length is increased.	                                                                               Code length remains the same.
+Macros are faster in execution.                         	                                             Functions are a bit slower in execution.
+Macros are useful when a small piece of code is used multiple times in a program.	        Functions are helpful when a large piece of code is repeated a number of times.
