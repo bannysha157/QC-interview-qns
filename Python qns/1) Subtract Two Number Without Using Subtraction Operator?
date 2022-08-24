@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+   int x, y;
+   printf("Enter two number: ");
+   scanf("%d %d",&x,&y);
+   printf("%d", x+(~y)+1);
+   return 0;
+}
+The bitwise complement operator is used in this program. 
+The bitwise complement of number ~y=-(y+1).
+So, expression will become x+(-(y+1))+1=x-y-1+1=x-y
