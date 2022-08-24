@@ -1,0 +1,27 @@
+#include<stdio.h>
+void mystrcat(char dest[],const char src[])
+{
+	int i=0,j;
+	while(dest[i]!='\0')
+	{
+		i++;
+	}
+	for(j=0;src[j]!='\0';j++)
+	{
+		dest[i]=src[j];
+		i++;
+	}
+	dest[i]='\0';
+	printf("the destination of string and soruce string dest:%s\tsrc=%s\n",dest,src);
+}
+
+int main()
+{
+	char str1[30],str2[30];
+	printf("enter a string1:\n");
+	scanf(" %[^\n]s",str1);
+	printf("enter  a string2:\n");
+	scanf(" %[^\n]s",str2);
+	printf("the strings are s1=%s\ts2=%s\n",str1,str2);
+	mystrcat(str1,str2);
+}
