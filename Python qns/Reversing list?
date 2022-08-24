@@ -1,0 +1,24 @@
+Method: using reverse() and reversed() method
+
+lst = [100, 111, 112, 113, 114, 115]
+lst.reverse()
+print("Using reverse() ", lst)
+print("Using reversed() ", list(reversed(lst)))
+
+Output:
+Using reverse()  [115, 114, 113, 112, 111, 100]
+Using reversed()  [100, 111, 112, 113, 114, 115]
+
+
+Method 2: Slicing method:
+
+def Reverse(lst):
+    new_lst = lst[::-1]
+    return new_lst
+lst = [1, 101, 132, 14, 145, 156]
+print(Reverse(lst))
+
+Output:
+[156, 145, 14, 132, 101, 1]
+
+
