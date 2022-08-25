@@ -1,0 +1,37 @@
+Find length of string using for loop
+=>Using while loop
+=>Using len() method
+=>Using user-defined function
+
+
+
+program 1: Find Length of String using for Loop:
+
+print("Enter the String: ")
+text = input()
+s = 0
+for ch in text:
+    s = s+1
+print("\nLength =", s)
+
+o/p=enter string 
+bannysha
+output is 8
+
+
+Method 2 : using while loop
+
+text = input()
+s = 0
+while text[s:]:
+    s= s+1
+print("\nLength =", s)
+
+
+Method 3: using len() method
+
+print("Enter a String: ", end="")
+text = input()
+textlen = len(text)
+print("\nLength =", textlen)
+
